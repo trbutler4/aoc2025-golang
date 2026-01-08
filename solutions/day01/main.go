@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	input, err := os.ReadFile("problem-files/day1.txt")
+	input, err := os.ReadFile("solutions/day01/input.txt")
 	if err != nil {
 		panic(err)
 	}
